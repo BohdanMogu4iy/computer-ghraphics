@@ -1,0 +1,72 @@
+{
+  "windowHeight": 750,
+  "windowWidth": 750,
+  "windowCoords" : [100, 100],
+  "light": {
+      "mainAttributes": {
+        "ambient": [0.0, 0.0, 0.0, 1.0],
+        "diffuse": [1.0, 1.0, 1.0, 1.0],
+        "specular": [1.0, 1.0, 1.0, 1.0],
+        "position": [0, 0, 0, 1]
+      },
+      "type": "point",
+      "specialAttributes":{
+        "constant": 0,
+        "linear": 0.7,
+        "quadratic": 0.18
+      }
+    },
+  "shapes" : [
+    {
+      "type": "sphere",
+      "attributes": {
+        "fill": true,
+        "center": [-0.5, 1.5, 0.1],
+        "color": [0.2, 0.3, 0.8],
+        "alpha": 1,
+        "radius": 0.15,
+        "type": "planet",
+        "move": true,
+        "moveSpeed": 0.004
+      }
+    },
+    {
+      "type": "sphere",
+      "attributes": {
+        "fill": true,
+        "center": [-2, 0, 0],
+        "color": [0, 1, 1],
+        "alpha": 1,
+        "radius": 0.1,
+        "type": "planet",
+        "move": true,
+        "moveSpeed": 0.003
+      }
+    },
+    {
+      "type": "sphere",
+      "attributes": {
+        "fill": true,
+        "center": [-0.5, -0.5, 0],
+        "color": [1, 0, 0.5],
+        "alpha": 1,
+        "radius": 0.08,
+        "type": "planet",
+        "move": true,
+        "moveSpeed": 0.005
+      }
+    },
+    {
+      "type": "sphere",
+      "attributes": {
+        "fill": true,
+        "center": [0, 0, 0],
+        "color": [100, 100, 0],
+        "alpha": 1,
+        "radius": 0.3,
+        "type": "star",
+        "move": false
+      }
+    }
+  ]
+}
